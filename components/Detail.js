@@ -19,7 +19,7 @@ export default function Detail({ route }) {
     </View>
   )
 }
-
+// スタイル設定
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',

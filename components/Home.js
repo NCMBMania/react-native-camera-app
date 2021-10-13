@@ -42,6 +42,7 @@ export default function Home({ navigation }) {
   );
 }
 
+// スタイル設定
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
