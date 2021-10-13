@@ -14,7 +14,6 @@ export default function InputForm({ image, navigation }) {
       const fileName = `${Math.random().toString(32).substring(2)}.jpg`;
       const promises = []; // 非同期処理を入れる配列
       // ファイルストアへのアップロード
-      console.log(image);
       promises.push(NCMBFile.upload(fileName, image));
       // データストアのオブジェクト（DBでいう行相当）を準備
       const obj = new NCMBObject('Memo');
